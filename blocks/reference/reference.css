@@ -1,0 +1,14 @@
+@import url('__link/reference__link.css');
+@import url('__url/reference__url.css');
+
+.reference {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 700px) {
+  .reference {
+    display: none;
+  }
+}

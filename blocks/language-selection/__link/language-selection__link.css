@@ -1,0 +1,12 @@
+@import url('_isActive/language-selection__link_isActive.css');
+.language-selection__link {
+  font-size: 24px;
+  line-height: 23px;
+}
+
+@media screen and (max-width: 700px) {
+  .language-selection__link {
+    font-size: 18px;
+    line-height: 96.82%;
+  }
+}

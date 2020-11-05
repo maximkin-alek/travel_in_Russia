@@ -1,0 +1,18 @@
+.intro__content-row {
+  max-width: 73.6%;
+  padding-bottom: 19px;
+}
+
+@media screen and (max-width: 990px) {
+    .intro__content-row {
+    max-width: 100%;
+    padding: 35px 3% 26px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .intro__content-row {
+    padding: 35px 4% 43px;
+  }
+}
+

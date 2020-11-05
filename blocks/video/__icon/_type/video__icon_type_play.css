@@ -1,0 +1,11 @@
+.video__icon_type_play {
+  background-image: url(../../../../images/video__icon_play.svg);
+  background-size: cover;
+
+}
+
+@media screen and (max-width: 990px) {
+ .video__icon_type_play {
+   margin-bottom: auto;
+ }
+}

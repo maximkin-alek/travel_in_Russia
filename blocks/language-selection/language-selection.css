@@ -1,0 +1,21 @@
+@import url('__link/language-selection__link.css');
+
+.language-selection {
+  display: flex;
+  justify-content: space-between;
+  min-width: 78px;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 700px) {
+  .language-selection {
+    min-width: 76px;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .language-selection {
+    min-width: 64px;
+  }
+}

@@ -1,0 +1,21 @@
+@import url('_bold/intro__text-info_bold.css');
+.intro__text-info {
+  font-family: 'Inter', Arial, sans-serif;
+  color: white;
+  margin: 0;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 990px) {
+  .intro__text-info {
+    padding-left: 3%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .intro__text-info {
+    font-size: 12px;
+    line-height: 19px;
+  }
+}

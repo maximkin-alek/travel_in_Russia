@@ -1,0 +1,31 @@
+.cover__text {
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  max-width: 382px;
+  padding-bottom: 48px;
+}
+
+@media screen and (max-width: 990px) {
+  .cover__text {
+    padding-bottom: 6%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cover__text {
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 8%;
+    max-width: 270px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__text {
+    padding-top: 2%;
+    padding-bottom: 7%;
+  }
+}

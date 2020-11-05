@@ -1,0 +1,22 @@
+.video__link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 990px) {
+  .video__link {
+    width: calc(50% - 8px);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .video__link {
+    width: calc(100% - 8px);
+    max-width: 370px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+  }
+  
+  .video__link:last-child {
+    padding-bottom: 0;
+  }
+}

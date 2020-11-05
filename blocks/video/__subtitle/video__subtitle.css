@@ -1,0 +1,23 @@
+.video__subtitle {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 0 72px;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+}
+
+@media screen and (max-width: 990px) {
+  .video__subtitle {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .video__subtitle {
+    font-size: 16px;
+    line-height: 23px;
+    max-width: 90%;
+    padding-bottom: 27px;
+  }
+}

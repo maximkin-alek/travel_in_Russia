@@ -1,0 +1,16 @@
+.lead__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding-top: 11px;
+}
+
+@media screen and (max-width: 990px) {
+  .lead__text {
+    padding-left: 3%;
+    padding-top: 4px;
+  }
+}
