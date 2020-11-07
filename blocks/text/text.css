@@ -1,5 +1,5 @@
-@import url('_size/text_size_s.css');
-@import url('_weight/text_weight_bold.css');
+@import url('./_size/text_size_s.css');
+@import url('./_weight/text_weight_bold.css');
 
 .text {
   font-family: 'Inter', Arial, sans-serif;

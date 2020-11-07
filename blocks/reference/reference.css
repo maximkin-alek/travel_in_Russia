@@ -1,5 +1,5 @@
-@import url('__link/reference__link.css');
-@import url('__url/reference__url.css');
+@import url('./__link/reference__link.css');
+@import url('./__url/reference__url.css');
 
 .reference {
   display: flex;

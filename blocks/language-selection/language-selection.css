@@ -1,4 +1,4 @@
-@import url('__link/language-selection__link.css');
+@import url('./__link/language-selection__link.css');
 
 .language-selection {
   display: flex;

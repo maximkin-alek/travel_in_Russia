@@ -1,0 +1,24 @@
+{
+  "name": "Sprint_4",
+  "version": "1.0.0",
+  "description": "## О проекте: Одностраничный сайт, семантичная верстка, файловая структура и стилизация по БЭМ.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximkin-alek/travel_in_Russia.git"
+  },
+  "keywords": [],
+  "author": "Alexander Maximkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximkin-alek/travel_in_Russia/issues"
+  },
+  "homepage": "https://github.com/maximkin-alek/travel_in_Russia#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

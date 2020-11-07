@@ -1,4 +1,4 @@
-@import url('_bold/intro__text_bold.css');
+@import url('./_bold/intro__text_bold.css');
 .intro__text {
   font-size: 14px;
   line-height: 24px;
